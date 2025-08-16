@@ -1,0 +1,57 @@
+[
+  {
+    "date": "2025-04-22",
+    "patch_name": "Java OpenJDK April 2025 Patch & Security Update",
+    "link": "https://aka.ms/msopenjdk-dl"
+  },
+  {
+    "date": "2025-04-22",
+    "patch_name": "OpenJDK 21.0.7 Release Notes",
+    "link": "https://learn.microsoft.com/en-us/java/openjdk/release-notes"
+  },
+  {
+    "date": "2025-04-22",
+    "patch_name": "OpenJDK 21.0.7 Source Code",
+    "link": "https://github.com/microsoft/openjdk-jdk21u/tree/release/jdk-21.0.7_6"
+  },
+  {
+    "date": "2025-04-22",
+    "patch_name": "OpenJDK 17.0.15 Source Code",
+    "link": "https://github.com/microsoft/openjdk-jdk17u/tree/release/jdk-17.0.15_6"
+  },
+  {
+    "date": "2025-04-22",
+    "patch_name": "OpenJDK 11.0.27 Source Code",
+    "link": "https://github.com/microsoft/openjdk-jdk11u/tree/release/jdk-11.0.27_6"
+  },
+  {
+    "date": "2025-04-22",
+    "patch_name": "Important Updates to Container Images of Microsoft Build of OpenJDK",
+    "link": "https://devblogs.microsoft.com/java/important-updates-to-container-images-of-microsoft-build-of-openjdk/"
+  },
+  {
+    "date": "2025-04-22",
+    "patch_name": "OpenJDK 21 List of Fixes",
+    "link": "https://bugs.openjdk.org/issues/?jql=project%20%3D%20JDK%20AND%20status%20in%20(Closed%2C%20Resolved)%20AND%20fixVersion%20%3D%2021.0.7"
+  },
+  {
+    "date": "2025-04-22",
+    "patch_name": "OpenJDK 21 Vulnerability Advisory",
+    "link": "https://openjdk.org/groups/vulnerability/advisories/2025-04-15"
+  },
+  {
+    "date": "2025-04-22",
+    "patch_name": "OpenJDK 17 List of Fixes",
+    "link": "https://bugs.openjdk.org/issues/?jql=project%20%3D%20JDK%20AND%20status%20in%20(Closed%2C%20Resolved)%20AND%20fixVersion%20%3D%2017.0.15"
+  },
+  {
+    "date": "2025-04-22",
+    "patch_name": "OpenJDK 11 List of Fixes",
+    "link": "https://bugs.openjdk.org/issues/?jql=project%20%3D%20JDK%20AND%20status%20in%20(Closed%2C%20Resolved)%20AND%20fixVersion%20%3D%2011.0.27"
+  },
+  {
+    "date": "2025-04-22",
+    "patch_name": "OpenJDK 8 Latest Release",
+    "link": "https://adoptium.net/temurin/releases/?version=8"
+  }
+]

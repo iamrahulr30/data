@@ -1,0 +1,110 @@
+[
+  {
+    "version": "3.15",
+    "status": "feature",
+    "first_release": "2026-10-01",
+    "end_of_life": "2031-10"
+  },
+  {
+    "version": "3.14",
+    "status": "prerelease",
+    "first_release": "2025-10-07",
+    "end_of_life": "2030-10"
+  },
+  {
+    "version": "3.13",
+    "status": "bugfix",
+    "first_release": "2024-10-07",
+    "end_of_life": "2029-10"
+  },
+  {
+    "version": "3.12",
+    "status": "security",
+    "first_release": "2023-10-02",
+    "end_of_life": "2028-10"
+  },
+  {
+    "version": "3.11",
+    "status": "security",
+    "first_release": "2022-10-24",
+    "end_of_life": "2027-10"
+  },
+  {
+    "version": "3.10",
+    "status": "security",
+    "first_release": "2021-10-04",
+    "end_of_life": "2026-10"
+  },
+  {
+    "version": "3.9",
+    "status": "security",
+    "first_release": "2020-10-05",
+    "end_of_life": "2025-10"
+  },
+  {
+    "version": "3.8",
+    "status": "end-of-life",
+    "first_release": "2019-10-14",
+    "end_of_life": "2024-10-07"
+  },
+  {
+    "version": "3.7",
+    "status": "end-of-life",
+    "first_release": "2018-06-27",
+    "end_of_life": "2023-06-27"
+  },
+  {
+    "version": "3.6",
+    "status": "end-of-life",
+    "first_release": "2016-12-23",
+    "end_of_life": "2021-12-23"
+  },
+  {
+    "version": "3.5",
+    "status": "end-of-life",
+    "first_release": "2015-09-13",
+    "end_of_life": "2020-09-30"
+  },
+  {
+    "version": "3.4",
+    "status": "end-of-life",
+    "first_release": "2014-03-16",
+    "end_of_life": "2019-03-18"
+  },
+  {
+    "version": "3.3",
+    "status": "end-of-life",
+    "first_release": "2012-09-29",
+    "end_of_life": "2017-09-29"
+  },
+  {
+    "version": "3.2",
+    "status": "end-of-life",
+    "first_release": "2011-02-20",
+    "end_of_life": "2016-02-20"
+  },
+  {
+    "version": "3.1",
+    "status": "end-of-life",
+    "first_release": "2009-06-27",
+    "end_of_life": "2012-04-09"
+  },
+  {
+    "version": "3.0",
+    "status": "end-of-life",
+    "first_release": "2008-12-03",
+    "end_of_life": "2009-06-27"
+  },
+  {
+    "version": "2.7",
+    "status": "end-of-life",
+    "first_release": "2010-07-03",
+    "end_of_life": "2020-01-01"
+  },
+  {
+    "version": "2.6",
+    "status": "end-of-life",
+    "first_release": "2008-10-01",
+    "end_of_life": "2013-10-29"
+  }
+]

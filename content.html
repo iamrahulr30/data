@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    
+    <title>Security</title>
+    
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta itemprop="image" content="https://www.ruby-lang.org/images/header-ruby-logo@2x.png">
+    
+    <meta name="description" content="">
+    
+
+    <link rel="stylesheet" type="text/css" href="/stylesheets/normalize.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/pygments.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/mobile.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/print.css">
+    <link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic&amp;subset=latin,cyrillic,greek,vietnamese' rel='stylesheet' type='text/css'>
+    <link rel="canonical" href="https://www.ruby-lang.org/en/security/">
+
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    
+    <link href="/en/feeds/news.rss" rel="alternate" title="Recent News (RSS)" type="application/rss+xml">
+
+
+    <script type="text/javascript" src="/javascripts/jquery.min.js"></script>
+    <script type="text/javascript" src="/javascripts/page.js"></script>
+    
+  </head>
+
+  
+
+  <body>
+    <div id="header">
+      <div id="header_content" class="container">
+        <a href="/en/">
+          <h1>Ruby</h1>
+          <h2>A Programmer's Best Friend</h2>
+        </a>
+
+        <div class="site-links">
+          
+
+  <a href="/en/" class="home">Home</a>
+
+  <a href="/en/downloads/">Downloads</a>
+
+  <a href="/en/documentation/">Documentation</a>
+
+  <a href="/en/libraries/">Libraries</a>
+
+  <a href="/en/community/">Community</a>
+
+  <a href="/en/news/">News</a>
+
+  <a href="/en/security/">Security</a>
+
+  <a href="/en/about/">About Ruby</a>
+
+
+          <a href="#" class="menu selected">Menu</a>
+        </div>
+
+        <div id="search-box">
+          
+
+<form id="search-form" action="https://www.google.com/cse">
+  <table class="fieldset">
+    <tr>
+      <td>
+        <input class="field" type="text" name="q" size="31" style="background: white url(//www.google.com/coop/intl/en/images/google_custom_search_watermark.gif) left no-repeat" onfocus="this.style.background='white'" onblur="if (/^\s*$/.test(this.value)) this.style.background='white url(//www.google.com/coop/intl/en/images/google_custom_search_watermark.gif) left no-repeat'"/>
+      </td>
+      <td>
+        <input type="hidden" name="cx" value="013598269713424429640:g5orptiw95w" />
+        <input type="hidden" name="ie" value="UTF-8" />
+        <input class="button" type="submit" name="sa" value="Search" />
+      </td>
+    </tr>
+  </table>
+</form>
+
+        </div>
+      </div>
+    </div>
+
+    <div id="page">
+      
+
+
+      <div id="main-wrapper" class="container">
+        <div id="main">
+          <div id="content-wrapper">
+  
+<h1>Security</h1>
+
+
+
+  <div id="content">
+    <p class="summary">Here you will find information about security issues of Ruby.</p>
+
+<h2>Reporting Security Vulnerabilities</h2>
+
+<p>Security vulnerabilities in the Ruby programming language should be
+reported through our
+<a href="https://hackerone.com/ruby">bounty program page at HackerOne</a>.
+Please ensure you read the specific details around the scope of
+our program before reporting an issue. Any valid reported problems
+will be published after fixes.</p>
+
+<p>If you have found an issue affecting one of our websites, please
+report it <a href="https://github.com/ruby/www.ruby-lang.org/issues/new">via GitHub</a> or you can check our <a href="https://groups.google.com/g/ruby-security-ann">Google Groups</a> for security announcements.</p>
+
+<p>If you have found an issue that affects a specific Ruby community’s gem, follow the
+<a href="http://guides.rubygems.org/security/#reporting-security-vulnerabilities">instructions on RubyGems.org</a>.</p>
+
+<p>To get in touch with the security team directly outside
+of HackerOne, you can send email to security@ruby-lang.org
+(<a href="/security.asc">the PGP public key</a>), which is a private mailing list.</p>
+
+<p>The members of the mailing list are people who provide Ruby
+(Ruby committers and authors of other Ruby implementations,
+distributors, PaaS platformers).
+The members must be individual people, mailing lists are not permitted.</p>
+
+<h2>Known issues</h2>
+
+<p>Here are recent issues:</p>
+
+<ul>
+
+  <li><a href="/en/news/2025/07/08/dos-resolv-cve-2025-24294/">CVE-2025-24294: Possible Denial of Service in resolv gem</a><br />2025-07-08</li>
+
+  <li><a href="/en/news/2025/04/28/dos-net-imap-cve-2025-43857/">CVE-2025-43857: DoS vulnerability in net-imap</a><br />2025-04-28</li>
+
+  <li><a href="/en/news/2025/02/26/security-advisories/">Security advisories: CVE-2025-27219, CVE-2025-27220 and CVE-2025-27221</a><br />2025-02-26</li>
+
+  <li><a href="/en/news/2025/02/10/dos-net-imap-cve-2025-25186/">CVE-2025-25186: DoS vulnerability in net-imap</a><br />2025-02-10</li>
+
+  <li><a href="/en/news/2024/10/28/redos-rexml-cve-2024-49761/">CVE-2024-49761: ReDoS vulnerability in REXML</a><br />2024-10-28</li>
+
+  <li><a href="/en/news/2024/08/22/dos-rexml-cve-2024-43398/">CVE-2024-43398: DoS vulnerability in REXML</a><br />2024-08-22</li>
+
+  <li><a href="/en/news/2024/08/01/dos-rexml-cve-2024-41946/">CVE-2024-41946: DoS vulnerability in REXML</a><br />2024-08-01</li>
+
+  <li><a href="/en/news/2024/08/01/dos-rexml-cve-2024-41123/">CVE-2024-41123: DoS vulnerabilities in REXML</a><br />2024-08-01</li>
+
+  <li><a href="/en/news/2024/07/16/dos-rexml-cve-2024-39908/">CVE-2024-39908: DoS vulnerability in REXML</a><br />2024-07-16</li>
+
+  <li><a href="/en/news/2024/05/16/dos-rexml-cve-2024-35176/">CVE-2024-35176: DoS vulnerability in REXML</a><br />2024-05-16</li>
+
+  <li><a href="/en/news/2024/04/23/arbitrary-memory-address-read-regexp-cve-2024-27282/">CVE-2024-27282: Arbitrary memory address read vulnerability with Regex search</a><br />2024-04-23</li>
+
+  <li><a href="/en/news/2024/03/21/rce-rdoc-cve-2024-27281/">CVE-2024-27281: RCE vulnerability with .rdoc_options in RDoc</a><br />2024-03-21</li>
+
+  <li><a href="/en/news/2024/03/21/buffer-overread-cve-2024-27280/">CVE-2024-27280: Buffer overread vulnerability in StringIO</a><br />2024-03-21</li>
+
+  <li><a href="/en/news/2023/06/29/redos-in-uri-CVE-2023-36617/">CVE-2023-36617: ReDoS vulnerability in URI</a><br />2023-06-29</li>
+
+  <li><a href="/en/news/2023/03/30/redos-in-time-cve-2023-28756/">CVE-2023-28756: ReDoS vulnerability in Time</a><br />2023-03-30</li>
+
+  <li><a href="/en/news/2023/03/28/redos-in-uri-cve-2023-28755/">CVE-2023-28755: ReDoS vulnerability in URI</a><br />2023-03-28</li>
+
+  <li><a href="/en/news/2022/11/22/http-response-splitting-in-cgi-cve-2021-33621/">CVE-2021-33621: HTTP response splitting in CGI</a><br />2022-11-22</li>
+
+  <li><a href="/en/news/2022/04/12/double-free-in-regexp-compilation-cve-2022-28738/">CVE-2022-28738: Double free in Regexp compilation</a><br />2022-04-12</li>
+
+  <li><a href="/en/news/2022/04/12/buffer-overrun-in-string-to-float-cve-2022-28739/">CVE-2022-28739: Buffer overrun in String-to-Float conversion</a><br />2022-04-12</li>
+
+  <li><a href="/en/news/2021/11/24/cookie-prefix-spoofing-in-cgi-cookie-parse-cve-2021-41819/">CVE-2021-41819: Cookie Prefix Spoofing in CGI::Cookie.parse</a><br />2021-11-24</li>
+
+  <li><a href="/en/news/2021/11/24/buffer-overrun-in-cgi-escape_html-cve-2021-41816/">CVE-2021-41816: Buffer Overrun in CGI.escape_html</a><br />2021-11-24</li>
+
+  <li><a href="/en/news/2021/11/15/date-parsing-method-regexp-dos-cve-2021-41817/">CVE-2021-41817: Regular Expression Denial of Service Vulnerability of Date Parsing Methods</a><br />2021-11-15</li>
+
+  <li><a href="/en/news/2021/07/07/trusting-pasv-responses-in-net-ftp/">CVE-2021-31810: Trusting FTP PASV responses vulnerability in Net::FTP</a><br />2021-07-07</li>
+
+  <li><a href="/en/news/2021/07/07/starttls-stripping-in-net-imap/">CVE-2021-32066: A StartTLS stripping vulnerability in Net::IMAP</a><br />2021-07-07</li>
+
+  <li><a href="/en/news/2021/05/02/os-command-injection-in-rdoc/">CVE-2021-31799: A command injection vulnerability in RDoc</a><br />2021-05-02</li>
+
+  <li><a href="/en/news/2021/04/05/xml-round-trip-vulnerability-in-rexml-cve-2021-28965/">CVE-2021-28965: XML round-trip vulnerability in REXML</a><br />2021-04-05</li>
+
+  <li><a href="/en/news/2021/04/05/tempfile-path-traversal-on-windows-cve-2021-28966/">CVE-2021-28966: Path traversal in Tempfile on Windows</a><br />2021-04-05</li>
+
+  <li><a href="/en/news/2020/09/29/http-request-smuggling-cve-2020-25613/">CVE-2020-25613: Potential HTTP Request Smuggling Vulnerability in WEBrick</a><br />2020-09-29</li>
+
+  <li><a href="/en/news/2020/03/31/heap-exposure-in-socket-cve-2020-10933/">CVE-2020-10933: Heap exposure vulnerability in the socket library</a><br />2020-03-31</li>
+
+  <li><a href="/en/news/2020/03/19/json-dos-cve-2020-10663/">CVE-2020-10663: Unsafe Object Creation Vulnerability in JSON (Additional fix)</a><br />2020-03-19</li>
+
+  <li><a href="/en/news/2019/10/01/webrick-regexp-digestauth-dos-cve-2019-16201/">CVE-2019-16201: Regular Expression Denial of Service vulnerability of WEBrick's Digest access authentication</a><br />2019-10-01</li>
+
+  <li><a href="/en/news/2019/10/01/nul-injection-file-fnmatch-cve-2019-15845/">CVE-2019-15845: A NUL injection vulnerability of File.fnmatch and File.fnmatch?</a><br />2019-10-01</li>
+
+  <li><a href="/en/news/2019/10/01/http-response-splitting-in-webrick-cve-2019-16254/">CVE-2019-16254: HTTP response splitting in WEBrick (Additional fix)</a><br />2019-10-01</li>
+
+  <li><a href="/en/news/2019/10/01/code-injection-shell-test-cve-2019-16255/">CVE-2019-16255: A code injection vulnerability of Shell#[] and Shell#test</a><br />2019-10-01</li>
+
+  <li><a href="/en/news/2019/08/28/multiple-jquery-vulnerabilities-in-rdoc/">Multiple jQuery vulnerabilities in RDoc</a><br />2019-08-28</li>
+
+  <li><a href="/en/news/2019/03/05/multiple-vulnerabilities-in-rubygems/">Multiple vulnerabilities in RubyGems</a><br />2019-03-05</li>
+
+  <li><a href="/en/news/2018/10/17/openssl-x509-name-equality-check-does-not-work-correctly-cve-2018-16395/">CVE-2018-16395: OpenSSL::X509::Name equality check does not work correctly</a><br />2018-10-17</li>
+
+  <li><a href="/en/news/2018/10/17/not-propagated-taint-flag-in-some-formats-of-pack-cve-2018-16396/">CVE-2018-16396: Tainted flags are not propagated in Array#pack and String#unpack with some directives</a><br />2018-10-17</li>
+
+  <li><a href="/en/news/2018/03/28/unintentional-file-and-directory-creation-with-directory-traversal-cve-2018-6914/">CVE-2018-6914: Unintentional file and directory creation with directory traversal in tempfile and tmpdir</a><br />2018-03-28</li>
+
+  <li><a href="/en/news/2018/03/28/poisoned-nul-byte-unixsocket-cve-2018-8779/">CVE-2018-8779: Unintentional socket creation by poisoned NUL byte in UNIXServer and UNIXSocket</a><br />2018-03-28</li>
+
+  <li><a href="/en/news/2018/03/28/poisoned-nul-byte-dir-cve-2018-8780/">CVE-2018-8780: Unintentional directory traversal by poisoned NUL byte in Dir</a><br />2018-03-28</li>
+
+  <li><a href="/en/news/2018/03/28/large-request-dos-in-webrick-cve-2018-8777/">CVE-2018-8777: DoS by large request in WEBrick</a><br />2018-03-28</li>
+
+  <li><a href="/en/news/2018/03/28/http-response-splitting-in-webrick-cve-2017-17742/">CVE-2017-17742: HTTP response splitting in WEBrick</a><br />2018-03-28</li>
+
+  <li><a href="/en/news/2018/03/28/buffer-under-read-unpack-cve-2018-8778/">CVE-2018-8778: Buffer under-read in String#unpack</a><br />2018-03-28</li>
+
+  <li><a href="/en/news/2018/02/17/multiple-vulnerabilities-in-rubygems/">Multiple vulnerabilities in RubyGems</a><br />2018-02-17</li>
+
+  <li><a href="/en/news/2017/12/14/net-ftp-command-injection-cve-2017-17405/">CVE-2017-17405: Command injection vulnerability in Net::FTP</a><br />2017-12-14</li>
+
+  <li><a href="/en/news/2017/09/14/webrick-basic-auth-escape-sequence-injection-cve-2017-10784/">CVE-2017-10784: Escape sequence injection vulnerability in the Basic authentication of WEBrick</a><br />2017-09-14</li>
+
+  <li><a href="/en/news/2017/09/14/sprintf-buffer-underrun-cve-2017-0898/">CVE-2017-0898: Buffer underrun vulnerability in Kernel.sprintf</a><br />2017-09-14</li>
+
+  <li><a href="/en/news/2017/09/14/openssl-asn1-buffer-underrun-cve-2017-14033/">CVE-2017-14033: Buffer underrun vulnerability in OpenSSL ASN1 decode</a><br />2017-09-14</li>
+
+  <li><a href="/en/news/2017/09/14/json-heap-exposure-cve-2017-14064/">CVE-2017-14064: Heap exposure vulnerability in generating JSON</a><br />2017-09-14</li>
+
+  <li><a href="/en/news/2017/08/29/multiple-vulnerabilities-in-rubygems/">Multiple vulnerabilities in RubyGems</a><br />2017-08-29</li>
+
+  <li><a href="/en/news/2015/12/16/unsafe-tainted-string-usage-in-fiddle-and-dl-cve-2015-7551/">CVE-2015-7551: Unsafe tainted string usage in Fiddle and DL</a><br />2015-12-16</li>
+
+  <li><a href="/en/news/2015/04/13/ruby-openssl-hostname-matching-vulnerability/">CVE-2015-1855: Ruby OpenSSL Hostname Verification</a><br />2015-04-13</li>
+
+  <li><a href="/en/news/2014/11/13/rexml-dos-cve-2014-8090/">CVE-2014-8090: Another Denial of Service XML Expansion</a><br />2014-11-13</li>
+
+  <li><a href="/en/news/2014/10/27/rexml-dos-cve-2014-8080/">CVE-2014-8080: Denial of Service XML Expansion</a><br />2014-10-27</li>
+
+  <li><a href="/en/news/2014/10/27/changing-default-settings-of-ext-openssl/">Changed default settings of ext/openssl</a><br />2014-10-27</li>
+
+  <li><a href="/en/news/2014/05/09/dispute-of-vulnerability-cve-2014-2734/">Dispute of Vulnerability CVE-2014-2734</a><br />2014-05-09</li>
+
+  <li><a href="/en/news/2014/04/10/severe-openssl-vulnerability/">OpenSSL Severe Vulnerability in TLS Heartbeat Extension (CVE-2014-0160)</a><br />2014-04-10</li>
+
+  <li><a href="/en/news/2014/03/29/heap-overflow-in-yaml-uri-escape-parsing-cve-2014-2525/">Heap Overflow in YAML URI Escape Parsing (CVE-2014-2525)</a><br />2014-03-29</li>
+
+  <li><a href="/en/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/">Heap Overflow in Floating Point Parsing (CVE-2013-4164)</a><br />2013-11-22</li>
+
+  <li><a href="/en/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/">Hostname check bypassing vulnerability in SSL client (CVE-2013-4073)</a><br />2013-06-27</li>
+
+  <li><a href="/en/news/2013/05/14/taint-bypass-dl-fiddle-cve-2013-2065/">Object taint bypassing in DL and Fiddle in Ruby (CVE-2013-2065)</a><br />2013-05-14</li>
+
+</ul>
+
+<p>More known issues:</p>
+
+<ul>
+  <li><a href="/en/news/2013/02/22/rexml-dos-2013-02-22/">Entity expansion DoS vulnerability in REXML (XML bomb,
+CVE-2013-1821)</a>
+published at 22 Feb, 2013.</li>
+  <li><a href="/en/news/2013/02/22/json-dos-cve-2013-0269/">Denial of Service and Unsafe Object Creation Vulnerability in JSON
+(CVE-2013-0269)</a>
+published at 22 Feb, 2013.</li>
+  <li><a href="/en/news/2013/02/06/rdoc-xss-cve-2013-0256/">XSS exploit of RDoc documentation generated by rdoc
+(CVE-2013-0256)</a>
+published at 6 Feb, 2013.</li>
+  <li><a href="/en/news/2012/11/09/ruby19-hashdos-cve-2012-5371/">Hash-flooding DoS vulnerability for ruby 1.9 (CVE-2012-5371)</a>
+published at 10 Nov, 2012.</li>
+  <li><a href="/en/news/2012/10/12/poisoned-NUL-byte-vulnerability/">Unintentional file creation caused by inserting a illegal NUL
+character (CVE-2012-4522)</a>
+published at 12 Oct, 2012.</li>
+  <li><a href="/en/news/2012/10/12/cve-2012-4464-cve-2012-4466/">$SAFE escaping vulnerability about Exception#to_s / NameError#to_s
+(CVE-2012-4464, CVE-2012-4466)</a>
+published at 12 Oct, 2012.</li>
+  <li><a href="/en/news/2012/04/20/ruby-1-9-3-p194-is-released/">Security Fix for RubyGems: SSL server verification failure for remote
+repository</a> published at 20 Apr, 2012.</li>
+  <li><a href="/en/news/2012/02/16/security-fix-for-ruby-openssl-module/">Security Fix for Ruby OpenSSL module: Allow 0/n splitting as a
+prevention for the TLS BEAST attack</a>
+published at 16 Feb, 2012.</li>
+  <li><a href="/en/news/2011/12/28/denial-of-service-attack-was-found-for-rubys-hash-algorithm-cve-2011-4815/">Denial of service attack was found for Ruby's Hash algorithm
+(CVE-2011-4815)</a>
+published at 28 Dec, 2011.</li>
+  <li><a href="/en/news/2011/02/18/exception-methods-can-bypass-safe/">Exception methods can bypass $SAFE</a>
+published at 18 Feb, 2011.</li>
+  <li><a href="/en/news/2011/02/18/fileutils-is-vulnerable-to-symlink-race-attacks/">FileUtils is vulnerable to symlink race attacks</a>
+published at 18 Feb, 2011.</li>
+  <li><a href="/en/news/2010/08/16/xss-in-webrick-cve-2010-0541/">XSS in WEBrick (CVE-2010-0541)</a>
+published at 16 Aug, 2010.</li>
+  <li><a href="/en/news/2010/07/02/ruby-1-9-1-p429-is-released/">Buffer over-run in ARGF.inplace_mode=</a>
+published at 2 Jul, 2010.</li>
+  <li><a href="/en/news/2010/01/10/webrick-escape-sequence-injection/">WEBrick has an Escape Sequence Injection vulnerability</a>
+published at 10 Jan, 2010.</li>
+  <li><a href="/en/news/2009/12/07/heap-overflow-in-string/">Heap overflow in String (CVE-2009-4124)</a>
+published at 7 Dec, 2009.</li>
+  <li><a href="/en/news/2009/06/09/dos-vulnerability-in-bigdecimal/">DoS vulnerability in
+BigDecimal</a>
+published at 9 Jun, 2009.</li>
+  <li><a href="/en/news/2008/08/23/dos-vulnerability-in-rexml/">DoS vulnerability in
+REXML</a>
+published at 23 Aug, 2008.</li>
+  <li><a href="/en/news/2008/08/08/multiple-vulnerabilities-in-ruby/">Multiple vulnerabilities in
+Ruby</a>
+published at 8 Aug, 2008.</li>
+  <li><a href="/en/news/2008/06/20/arbitrary-code-execution-vulnerabilities/">Arbitrary code execution
+vulnerabilities</a>
+published at 20 Jun, 2008.</li>
+  <li><a href="/en/news/2008/03/03/webrick-file-access-vulnerability/">File access vulnerability of
+WEBrick</a>
+published at 3 Mar, 2008.</li>
+  <li><a href="/en/news/2007/10/04/net-https-vulnerability/">Net::HTTPS
+Vulnerability</a>
+published at 4 Oct, 2007.</li>
+  <li><a href="/en/news/2006/12/04/another-dos-vulnerability-in-cgi-library/">Another DoS Vulnerability in CGI
+Library</a>
+published at 4 Dec, 2006.</li>
+  <li><a href="/en/news/2006/11/03/CVE-2006-5467/">DoS Vulnerability in CGI Library (CVE-2006-5467)</a>
+published at 3 Nov, 2006.</li>
+  <li><a href="/en/news/2005/10/03/ruby-vulnerability-in-the-safe-level-settings/">Ruby vulnerability in the safe level
+settings</a>
+published at 2 Oct, 2005.</li>
+</ul>
+
+
+  </div>
+</div>
+<hr class="hidden-modern" />
+
+<div id="sidebar-wrapper">
+  <div id="sidebar">
+    
+
+
+
+
+<div class="navigation">
+  <h3><strong>Get Started</strong>, it's easy!</h3>
+
+  <ul class="menu">
+    <li><a href="https://try.ruby-lang.org/">Try Ruby! (in your browser)</a></li>
+
+    
+    <li><a href="/en/documentation/quickstart/">Ruby in Twenty Minutes</a></li>
+    
+
+    
+    <li><a href="/en/documentation/ruby-from-other-languages/">Ruby from Other Languages</a></li>
+    
+  </ul>
+</div>
+
+
+
+<div class="navigation">
+  <h3><strong>Explore</strong> a new world…</h3>
+  <ul class="menu">
+    
+    <li><a href="/en/documentation/">Documentation</a></li>
+    
+
+    
+
+    
+    <li><a href="https://rubybib.org/">Academic Research</a></li>
+    
+
+    
+    <li><a href="/en/libraries/">Libraries</a></li>
+    
+
+    
+    <li><a href="/en/documentation/success-stories/">Success Stories</a></li>
+    
+  </ul>
+</div>
+
+
+
+<div class="navigation">
+  <h3><strong>Participate</strong> in a friendly and growing community.</h3>
+  <ul>
+    
+    <li><a href="/en/community/mailing-lists/">Mailing Lists</a>: Talk about Ruby with programmers from all around the world.</li>
+    
+
+    
+    <li><a href="/en/community/user-groups/">User Groups</a>: Get in contact with Rubyists in your area.</li>
+    
+
+    
+    <li><a href="/en/community/weblogs/">Blogs and Newsletters</a>: Read about what’s happening right now in the Ruby community.</li>
+    
+
+    
+    <li><a href="/en/community/ruby-core/">Ruby Core</a>: Help polish the rough edges of the latest Ruby.</li>
+    
+
+    
+    <li><a href="https://bugs.ruby-lang.org/">Issue Tracking</a>: Report or help solve issues in Ruby.</li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+    <h3>Syndicate</h3>
+    <p><a href="/en/feeds/news.rss">Recent News (RSS)</a></p>
+
+
+  </div>
+</div>
+<hr class="hidden-modern" />
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="footer">
+        <div class="site-links">
+          
+
+  <a href="/en/" class="home">Home</a>
+
+  <a href="/en/downloads/">Downloads</a>
+
+  <a href="/en/documentation/">Documentation</a>
+
+  <a href="/en/libraries/">Libraries</a>
+
+  <a href="/en/community/">Community</a>
+
+  <a href="/en/news/">News</a>
+
+  <a href="/en/security/">Security</a>
+
+  <a href="/en/about/">About Ruby</a>
+
+
+        </div>
+
+        <p>
+
+  This site in other languages:
+
+<a href="/bg/">Български</a>,
+<a href="/de/">Deutsch</a>,
+<a href="/en/">English</a>,
+<a href="/es/">Español</a>,
+<a href="/fr/">Français</a>,
+<a href="/id/">Bahasa Indonesia</a>,
+<a href="/it/">Italiano</a>,
+<a href="/ja/">日本語</a>,
+<a href="/ko/">한국어</a>,
+<a href="/pl/">polski</a>,
+<a href="/pt/">Português</a>,
+<a href="/ru/">Русский</a>,
+<a href="/tr/">Türkçe</a>,
+<a href="/vi/">Tiếng Việt</a>,
+<a href="/zh_cn/">简体中文</a>,
+<a href="/zh_tw/">繁體中文</a>.
+</p>
+
+        
+  <p><a href="/en/about/website/">This website</a> is proudly maintained by members of the Ruby community.</p>
+
+
+      </div>
+    </div>
+  </body>
+</html>

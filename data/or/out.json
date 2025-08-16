@@ -1,0 +1,117 @@
+[
+  {
+    "date": "2025-07-28",
+    "patch_name": "Critical Patch Update - July 2025",
+    "link": "https://www.oracle.com/in/security-alerts/cpujul2025.html"
+  },
+  {
+    "date": "2025-04-21",
+    "patch_name": "Critical Patch Update - April 2025",
+    "link": "https://www.oracle.com/in/security-alerts/cpuapr2025.html"
+  },
+  {
+    "date": "2025-02-11",
+    "patch_name": "Critical Patch Update - January 2025",
+    "link": "https://www.oracle.com/in/security-alerts/cpujan2025.html"
+  },
+  {
+    "date": "2024-11-25",
+    "patch_name": "Critical Patch Update - October 2024",
+    "link": "https://www.oracle.com/in/security-alerts/cpuoct2024.html"
+  },
+  {
+    "date": "2024-09-18",
+    "patch_name": "Critical Patch Update - July 2024",
+    "link": "https://www.oracle.com/in/security-alerts/cpujul2024.html"
+  },
+  {
+    "date": "2024-09-18",
+    "patch_name": "Critical Patch Update - April 2024",
+    "link": "https://www.oracle.com/in/security-alerts/cpuapr2024.html"
+  },
+  {
+    "date": "2024-02-11",
+    "patch_name": "Critical Patch Update - January 2024",
+    "link": "https://www.oracle.com/in/security-alerts/cpujan2024.html"
+  },
+  {
+    "date": "2023-12-08",
+    "patch_name": "Critical Patch Update - October 2023",
+    "link": "https://www.oracle.com/in/security-alerts/cpuoct2023.html"
+  },
+  {
+    "date": "2023-07-18",
+    "patch_name": "Critical Patch Update - July 2023",
+    "link": "https://www.oracle.com/in/security-alerts/cpujul2023.html"
+  },
+  {
+    "date": "2023-04-25",
+    "patch_name": "Critical Patch Update - April 2023",
+    "link": "https://www.oracle.com/in/security-alerts/cpuapr2023.html"
+  },
+  {
+    "date": "2023-02-27",
+    "patch_name": "Critical Patch Update - January 2023",
+    "link": "https://www.oracle.com/in/security-alerts/cpujan2023.html"
+  },
+  {
+    "date": "2022-12-12",
+    "patch_name": "Critical Patch Update - October 2022",
+    "link": "https://www.oracle.com/in/security-alerts/cpuoct2022.html"
+  },
+  {
+    "date": "2022-10-31",
+    "patch_name": "Critical Patch Update - July 2022",
+    "link": "https://www.oracle.com/in/security-alerts/cpujul2022.html"
+  },
+  {
+    "date": "2022-12-23",
+    "patch_name": "Critical Patch Update - April 2022",
+    "link": "https://www.oracle.com/in/security-alerts/cpuapr2022.html"
+  },
+  {
+    "date": "2024-12-23",
+    "patch_name": "Critical Patch Update - January 2022",
+    "link": "https://www.oracle.com/in/security-alerts/cpujan2022.html"
+  },
+  {
+    "date": "2022-01-18",
+    "patch_name": "Critical Patch Update - October 2021",
+    "link": "https://www.oracle.com/in/security-alerts/cpuoct2021.html"
+  },
+  {
+    "date": "2021-09-03",
+    "patch_name": "Critical Patch Update - July 2021",
+    "link": "https://www.oracle.com/in/security-alerts/cpujul2021.html"
+  },
+  {
+    "date": "2021-07-28",
+    "patch_name": "Critical Patch Update - April 2021",
+    "link": "https://www.oracle.com/in/security-alerts/cpuapr2021.html"
+  },
+  {
+    "date": "2021-02-22",
+    "patch_name": "Critical Patch Update - January 2021",
+    "link": "https://www.oracle.com/in/security-alerts/cpujan2021.html"
+  },
+  {
+    "date": "2020-12-08",
+    "patch_name": "Critical Patch Update - October 2020",
+    "link": "https://www.oracle.com/in/security-alerts/cpuoct2020.html"
+  },
+  {
+    "date": "2020-12-01",
+    "patch_name": "Critical Patch Update - July 2020",
+    "link": "https://www.oracle.com/in/security-alerts/cpujul2020.html"
+  },
+  {
+    "date": "2020-07-20",
+    "patch_name": "Critical Patch Update - April 2020",
+    "link": "https://www.oracle.com/in/security-alerts/cpuapr2020.html"
+  },
+  {
+    "date": "2020-04-20",
+    "patch_name": "Critical Patch Update - January 2020",
+    "link": "https://www.oracle.com/in/security-alerts/cpujan2020.html"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "date": "2025-05-28",
+    "patch_name": "Microsoft Visual C++ Redistributable latest supported downloads (v14.44.35211.0) - ARM64",
+    "link": "https://aka.ms/vs/17/release/vc_redist.arm64.exe"
+  },
+  {
+    "date": "2025-05-28",
+    "patch_name": "Microsoft Visual C++ Redistributable latest supported downloads (v14.44.35211.0) - X86",
+    "link": "https://aka.ms/vs/17/release/vc_redist.x86.exe"
+  },
+  {
+    "date": "2025-05-28",
+    "patch_name": "Microsoft Visual C++ Redistributable latest supported downloads (v14.44.35211.0) - X64",
+    "link": "https://aka.ms/vs/17/release/vc_redist.x64.exe"
+  },
+  {
+    "date": "2013",
+    "patch_name": "Visual C++ 2013 Redistributable (v12.0.40664.0) - X86",
+    "link": "https://aka.ms/highdpimfc2013x86enu"
+  },
+  {
+    "date": "2013",
+    "patch_name": "Visual C++ 2013 Redistributable (v12.0.40664.0) - X64",
+    "link": "https://aka.ms/highdpimfc2013x64enu"
+  },
+  {
+    "date": "2012",
+    "patch_name": "Visual C++ 2012 Update 4 Redistributable (v11.0.61030.0) - X86",
+    "link": "https://download.microsoft.com/download/1/6/B/16B06F60-3B20-4FF2-B699-5E9B7962F9AE/VSU_4/vcredist_x86.exe"
+  },
+  {
+    "date": "2012",
+    "patch_name": "Visual C++ 2012 Update 4 Redistributable (v11.0.61030.0) - X64",
+    "link": "https://download.microsoft.com/download/1/6/B/16B06F60-3B20-4FF2-B699-5E9B7962F9AE/VSU_4/vcredist_x64.exe"
+  },
+  {
+    "date": "2010",
+    "patch_name": "Visual C++ 2010 SP1 Redistributable (v10.0.40219.325) - X86",
+    "link": "https://download.microsoft.com/download/1/6/5/165255E7-1014-4D0A-B094-B6A430A6BFFC/vcredist_x86.exe"
+  },
+  {
+    "date": "2010",
+    "patch_name": "Visual C++ 2010 SP1 Redistributable (v10.0.40219.325) - X64",
+    "link": "https://download.microsoft.com/download/1/6/5/165255E7-1014-4D0A-B094-B6A430A6BFFC/vcredist_x64.exe"
+  },
+  {
+    "date": "2008",
+    "patch_name": "Visual C++ 2008 SP1 Redistributable (v9.0.30729.5677) - X86",
+    "link": "https://download.microsoft.com/download/5/D/8/5D8C65CB-C849-4025-8E95-C3966CAFD8AE/vcredist_x86.exe"
+  },
+  {
+    "date": "2008",
+    "patch_name": "Visual C++ 2008 SP1 Redistributable (v9.0.30729.5677) - X64",
+    "link": "https://download.microsoft.com/download/5/D/8/5D8C65CB-C849-4025-8E95-C3966CAFD8AE/vcredist_x64.exe"
+  }
+]
